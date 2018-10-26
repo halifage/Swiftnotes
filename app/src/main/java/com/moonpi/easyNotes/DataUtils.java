@@ -1,4 +1,4 @@
-package com.moonpi.swiftnotes;
+package com.moonpi.easyNotes;
 
 import android.os.Environment;
 
@@ -14,7 +14,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import static com.moonpi.swiftnotes.MainActivity.*;
+import static com.moonpi.easyNotes.MainActivity.*;
 
     /*
     *   JSON file structure:

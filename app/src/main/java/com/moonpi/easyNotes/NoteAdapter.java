@@ -1,4 +1,4 @@
-package com.moonpi.swiftnotes;
+package com.moonpi.easyNotes;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -18,8 +18,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import static com.moonpi.swiftnotes.DataUtils.*;
-import static com.moonpi.swiftnotes.MainActivity.*;
+import static com.moonpi.easyNotes.DataUtils.*;
+import static com.moonpi.easyNotes.MainActivity.*;
 
 
 /**
@@ -32,7 +32,8 @@ class NoteAdapter extends BaseAdapter implements ListAdapter {
 
     /**
      * Adapter constructor -> Sets class variables
-     * @param context application context
+     *
+     * @param context     application context
      * @param adapterData JSONArray of notes
      */
     NoteAdapter(Context context, JSONArray adapterData) {
@@ -75,7 +76,7 @@ class NoteAdapter extends BaseAdapter implements ListAdapter {
             convertView = this.inflater.inflate(R.layout.list_view_note, parent, false);
 
         // Initialize layout items
-        RelativeLayout relativeLayout = (RelativeLayout) convertView.findViewById(R.id.relativeLayout);
+        RelativeLayout relativeLayout = convertView.findViewById(R.id.relativeLayout);
         LayerDrawable roundedCard = (LayerDrawable) context.getResources().getDrawable(R.drawable.rounded_card);
         TextView titleView = (TextView) convertView.findViewById(R.id.titleView);
         TextView bodyView = (TextView) convertView.findViewById(R.id.bodyView);
@@ -133,7 +134,7 @@ class NoteAdapter extends BaseAdapter implements ListAdapter {
             if (hideBody)
                 bodyView.setVisibility(View.GONE);
 
-            // Else -> set visible note body, text to normal and set text size to 'fontSize' as sp
+                // Else -> set visible note body, text to normal and set text size to 'fontSize' as sp
             else {
                 bodyView.setVisibility(View.VISIBLE);
                 bodyView.setText(body);

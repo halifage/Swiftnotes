@@ -1,4 +1,4 @@
-package com.moonpi.swiftnotes.ColorPicker;
+package com.moonpi.easyNotes.ColorPicker;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -9,9 +9,9 @@ import android.widget.ImageView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 
-import com.moonpi.swiftnotes.R;
+import com.moonpi.easyNotes.R;
 
-import static com.moonpi.swiftnotes.ColorPicker.ColorPickerSwatch.*;
+import static com.moonpi.easyNotes.ColorPicker.ColorPickerSwatch.*;
 
 
 /**

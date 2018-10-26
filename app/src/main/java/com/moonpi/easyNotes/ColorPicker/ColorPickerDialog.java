@@ -1,4 +1,4 @@
-package com.moonpi.swiftnotes.ColorPicker;
+package com.moonpi.easyNotes.ColorPicker;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -12,9 +12,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ProgressBar;
 
-import com.moonpi.swiftnotes.R;
+import com.moonpi.easyNotes.R;
 
-import static com.moonpi.swiftnotes.ColorPicker.ColorPickerSwatch.*;
+import static com.moonpi.easyNotes.ColorPicker.ColorPickerSwatch.*;
 
 
 /**

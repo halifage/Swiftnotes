@@ -1,4 +1,4 @@
-package com.moonpi.swiftnotes.ColorPicker;
+package com.moonpi.easyNotes.ColorPicker;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.moonpi.swiftnotes.R;
+import com.moonpi.easyNotes.R;
 
 
 /**

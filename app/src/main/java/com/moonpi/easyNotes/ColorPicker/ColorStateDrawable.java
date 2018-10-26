@@ -1,4 +1,4 @@
-package com.moonpi.swiftnotes.ColorPicker;
+package com.moonpi.easyNotes.ColorPicker;
 
 import android.graphics.Color;
 import android.graphics.PorterDuff;

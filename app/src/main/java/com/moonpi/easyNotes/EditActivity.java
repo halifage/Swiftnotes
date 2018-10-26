@@ -1,4 +1,4 @@
-package com.moonpi.swiftnotes;
+package com.moonpi.easyNotes;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -22,17 +22,17 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.Toast;
 
-import com.moonpi.swiftnotes.ColorPicker.ColorPickerDialog;
+import com.moonpi.easyNotes.ColorPicker.ColorPickerDialog;
 
-import static com.moonpi.swiftnotes.ColorPicker.ColorPickerSwatch.OnColorSelectedListener;
-import static com.moonpi.swiftnotes.ColorPicker.ColorPickerSwatch.OnTouchListener;
-import static com.moonpi.swiftnotes.DataUtils.NEW_NOTE_REQUEST;
-import static com.moonpi.swiftnotes.DataUtils.NOTE_BODY;
-import static com.moonpi.swiftnotes.DataUtils.NOTE_COLOUR;
-import static com.moonpi.swiftnotes.DataUtils.NOTE_FONT_SIZE;
-import static com.moonpi.swiftnotes.DataUtils.NOTE_HIDE_BODY;
-import static com.moonpi.swiftnotes.DataUtils.NOTE_REQUEST_CODE;
-import static com.moonpi.swiftnotes.DataUtils.NOTE_TITLE;
+import static com.moonpi.easyNotes.ColorPicker.ColorPickerSwatch.OnColorSelectedListener;
+import static com.moonpi.easyNotes.ColorPicker.ColorPickerSwatch.OnTouchListener;
+import static com.moonpi.easyNotes.DataUtils.NEW_NOTE_REQUEST;
+import static com.moonpi.easyNotes.DataUtils.NOTE_BODY;
+import static com.moonpi.easyNotes.DataUtils.NOTE_COLOUR;
+import static com.moonpi.easyNotes.DataUtils.NOTE_FONT_SIZE;
+import static com.moonpi.easyNotes.DataUtils.NOTE_HIDE_BODY;
+import static com.moonpi.easyNotes.DataUtils.NOTE_REQUEST_CODE;
+import static com.moonpi.easyNotes.DataUtils.NOTE_TITLE;
 
 
 public class EditActivity extends AppCompatActivity implements Toolbar.OnMenuItemClickListener {
